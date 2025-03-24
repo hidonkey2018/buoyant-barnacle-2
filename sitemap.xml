@@ -1,69 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/404.html</loc>
+    <loc>https://preview.carpentries.org/convert_lesson_2/01-introduction.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/CODE_OF_CONDUCT.html</loc>
+    <loc>https://preview.carpentries.org/convert_lesson_2/02-dictionaries.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/LICENSE.html</loc>
+    <loc>https://preview.carpentries.org/convert_lesson_2/03-numpy_essential.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/aio.html</loc>
+    <loc>https://preview.carpentries.org/convert_lesson_2/04-software_package_management.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/images.html</loc>
+    <loc>https://preview.carpentries.org/convert_lesson_2/05-defensive_programming.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/index.html</loc>
+    <loc>https://preview.carpentries.org/convert_lesson_2/06-units_and_quantities.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/instructor/404.html</loc>
+    <loc>https://preview.carpentries.org/convert_lesson_2/07-pandas_essential.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/instructor/CODE_OF_CONDUCT.html</loc>
+    <loc>https://preview.carpentries.org/convert_lesson_2/404.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/instructor/LICENSE.html</loc>
+    <loc>https://preview.carpentries.org/convert_lesson_2/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/instructor/aio.html</loc>
+    <loc>https://preview.carpentries.org/convert_lesson_2/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/instructor/images.html</loc>
+    <loc>https://preview.carpentries.org/convert_lesson_2/aio.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/instructor/index.html</loc>
+    <loc>https://preview.carpentries.org/convert_lesson_2/discuss.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/instructor/instructor-notes.html</loc>
+    <loc>https://preview.carpentries.org/convert_lesson_2/images.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/instructor/introduction.html</loc>
+    <loc>https://preview.carpentries.org/convert_lesson_2/index.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/instructor/key-points.html</loc>
+    <loc>https://preview.carpentries.org/convert_lesson_2/instructor/01-introduction.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/instructor/profiles.html</loc>
+    <loc>https://preview.carpentries.org/convert_lesson_2/instructor/02-dictionaries.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/instructor/reference.html</loc>
+    <loc>https://preview.carpentries.org/convert_lesson_2/instructor/03-numpy_essential.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/instructor-notes.html</loc>
+    <loc>https://preview.carpentries.org/convert_lesson_2/instructor/04-software_package_management.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/introduction.html</loc>
+    <loc>https://preview.carpentries.org/convert_lesson_2/instructor/05-defensive_programming.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/key-points.html</loc>
+    <loc>https://preview.carpentries.org/convert_lesson_2/instructor/06-units_and_quantities.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/profiles.html</loc>
+    <loc>https://preview.carpentries.org/convert_lesson_2/instructor/07-pandas_essential.html</loc>
   </url>
   <url>
-    <loc>https://FIXME-template-source.github.io/NA/reference.html</loc>
+    <loc>https://preview.carpentries.org/convert_lesson_2/instructor/404.html</loc>
+  </url>
+  <url>
+    <loc>https://preview.carpentries.org/convert_lesson_2/instructor/CODE_OF_CONDUCT.html</loc>
+  </url>
+  <url>
+    <loc>https://preview.carpentries.org/convert_lesson_2/instructor/LICENSE.html</loc>
+  </url>
+  <url>
+    <loc>https://preview.carpentries.org/convert_lesson_2/instructor/aio.html</loc>
+  </url>
+  <url>
+    <loc>https://preview.carpentries.org/convert_lesson_2/instructor/discuss.html</loc>
+  </url>
+  <url>
+    <loc>https://preview.carpentries.org/convert_lesson_2/instructor/images.html</loc>
+  </url>
+  <url>
+    <loc>https://preview.carpentries.org/convert_lesson_2/instructor/index.html</loc>
+  </url>
+  <url>
+    <loc>https://preview.carpentries.org/convert_lesson_2/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://preview.carpentries.org/convert_lesson_2/instructor/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://preview.carpentries.org/convert_lesson_2/instructor/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://preview.carpentries.org/convert_lesson_2/instructor/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://preview.carpentries.org/convert_lesson_2/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://preview.carpentries.org/convert_lesson_2/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://preview.carpentries.org/convert_lesson_2/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://preview.carpentries.org/convert_lesson_2/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://preview.carpentries.org/convert_lesson_2/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://preview.carpentries.org/convert_lesson_2/reference.html</loc>
   </url>
 </urlset>
