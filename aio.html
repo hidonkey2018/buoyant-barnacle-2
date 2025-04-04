@@ -382,7 +382,7 @@
         
 <section id="aio-01-introduction"><p>Content from <a href="01-introduction.html">Python Basics Recap</a></p>
 <hr>
-<p>Last updated on 2025-03-24 |
+<p>Last updated on 2025-04-04 |
 
         <a href="https://github.com/fishtree-attempt/convert_lesson_2/edit/main/episodes/01-introduction.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -420,9 +420,13 @@ through this course.</p>
 <section><h2 class="section-heading" id="variables-and-lists">Variables and Lists<a class="anchor" aria-label="anchor" href="#variables-and-lists"></a>
 </h2>
 <hr class="half-width">
-<div class="section level3">
-<h3 id="assigning-a-value-to-a-variable">1. Assigning a value to a variable<a class="anchor" aria-label="anchor" href="#assigning-a-value-to-a-variable"></a>
-</h3>
+<div id="assigning-a-value-to-a-variable" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="assigning-a-value-to-a-variable" class="callout-inner">
+<h3 class="callout-title">1. Assigning a value to a variable</h3>
+<div class="callout-content">
 <p>We wish to store the string <code>Cat</code> as a value in the
 variable <code>animal</code>, which of these lines of code will do this
 for us?</p>
@@ -432,6 +436,9 @@ for us?</p>
 <li><code>Cat = animal</code></li>
 <li><code>animal(Cat)</code></li>
 </ol>
+</div>
+</div>
+</div>
 <div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
@@ -444,10 +451,13 @@ for us?</p>
 </div>
 </div>
 </div>
+<div id="assigning-values-to-a-list" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
 </div>
-<div class="section level3">
-<h3 id="assigning-values-to-a-list">2. Assigning values to a list<a class="anchor" aria-label="anchor" href="#assigning-values-to-a-list"></a>
-</h3>
+<div id="assigning-values-to-a-list" class="callout-inner">
+<h3 class="callout-title">2. Assigning values to a list</h3>
+<div class="callout-content">
 <p>We wish to create a list of values, which of these lines of code is
 valid to do this?</p>
 <ol style="list-style-type: decimal">
@@ -455,6 +465,9 @@ valid to do this?</p>
 <li><code>varlist = (12, 'vr', 95)</code></li>
 <li><code>varlist = 'xcf', 12, 97</code></li>
 </ol>
+</div>
+</div>
+</div>
 <div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
@@ -467,10 +480,13 @@ valid to do this?</p>
 </div>
 </div>
 </div>
+<div id="a.-indexing-characters-in-a-string" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
 </div>
-<div class="section level3">
-<h3 id="a--indexing-characters-in-a-string">3a. Indexing characters in a string<a class="anchor" aria-label="anchor" href="#a--indexing-characters-in-a-string"></a>
-</h3>
+<div id="a.-indexing-characters-in-a-string" class="callout-inner">
+<h3 class="callout-title">3a. Indexing characters in a string</h3>
+<div class="callout-content">
 <p>Lists and strings both contain multiple indexed values (in the case
 of strings these are specifically individual characters rather than
 other values). If we have a variable <code>animal</code> which contains
@@ -481,6 +497,9 @@ first character (<code>p</code>) for us?</p>
 <li><code>print(animal[1])</code></li>
 <li><code>print(animal['p'])</code></li>
 </ol>
+</div>
+</div>
+</div>
 <div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
@@ -493,10 +512,13 @@ first character (<code>p</code>) for us?</p>
 </div>
 </div>
 </div>
+<div id="b.-indexing-characters-in-a-string-slicing" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
 </div>
-<div class="section level3">
-<h3 id="b--indexing-characters-in-a-string-slicing">3b. Indexing characters in a string (slicing)<a class="anchor" aria-label="anchor" href="#b--indexing-characters-in-a-string-slicing"></a>
-</h3>
+<div id="b.-indexing-characters-in-a-string-slicing" class="callout-inner">
+<h3 class="callout-title">3b. Indexing characters in a string (slicing)</h3>
+<div class="callout-content">
 <p>We can also select whole sections of lists and strings, not just
 single elements. Using the same variable <code>animal</code>, containing
 the string <code>penguin</code>, as above, which of these options will
@@ -510,6 +532,9 @@ correct answer)</p>
 <li><code>print(animal[-2:])</code></li>
 <li><code>print(animal[:-2])</code></li>
 </ol>
+</div>
+</div>
+</div>
 <div id="accordionSolution4" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
@@ -522,15 +547,21 @@ correct answer)</p>
 </div>
 </div>
 </div>
-</div>
 </section><section><h2 class="section-heading" id="loops">Loops<a class="anchor" aria-label="anchor" href="#loops"></a>
 </h2>
 <hr class="half-width">
-<div class="section level3">
-<h3 id="constructing-a-for-loop">4. Constructing a <code>for</code> loop<a class="anchor" aria-label="anchor" href="#constructing-a-for-loop"></a>
-</h3>
+<div id="constructing-a-for-loop" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="constructing-a-for-loop" class="callout-inner">
+<h3 class="callout-title">4. Constructing a <code>for</code> loop</h3>
+<div class="callout-content">
 <p>Please write a simple <code>for</code> loop which will print out each
 of the characters in the <code>animal</code> variable one at a time.</p>
+</div>
+</div>
+</div>
 <div id="accordionSolution5" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution5" aria-expanded="false" aria-controls="collapseSolution5">
@@ -539,11 +570,10 @@ of the characters in the <code>animal</code> variable one at a time.</p>
 <div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb1">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="cf">for</span> char <span class="kw">in</span> animal:</span>
-<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a>    <span class="ex">print</span><span class="er">(</span><span class="ex">char</span><span class="kw">)</span></span></code></pre>
-</div>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="cf">for</span> char <span class="kw">in</span> animal:</span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a>    <span class="bu">print</span>(char)</span></code></pre>
 </div>
 </div>
 </div>
@@ -552,9 +582,13 @@ of the characters in the <code>animal</code> variable one at a time.</p>
 </section><section><h2 class="section-heading" id="software-modules">Software Modules<a class="anchor" aria-label="anchor" href="#software-modules"></a>
 </h2>
 <hr class="half-width">
-<div class="section level3">
-<h3 id="loading-new-functions">5. Loading new functions<a class="anchor" aria-label="anchor" href="#loading-new-functions"></a>
-</h3>
+<div id="loading-new-functions" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="loading-new-functions" class="callout-inner">
+<h3 class="callout-title">5. Loading new functions</h3>
+<div class="callout-content">
 <p>We want to use the functions in the <code>numpy</code> library in our
 code. How do we open this library in our code?</p>
 <ol style="list-style-type: decimal">
@@ -562,6 +596,9 @@ code. How do we open this library in our code?</p>
 <li><code>load numpy</code></li>
 <li><code>open numpy</code></li>
 </ol>
+</div>
+</div>
+</div>
 <div id="accordionSolution6" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution6" aria-expanded="false" aria-controls="collapseSolution6">
@@ -574,13 +611,16 @@ code. How do we open this library in our code?</p>
 </div>
 </div>
 </div>
-</div>
 </section><section><h2 class="section-heading" id="if-statements-and-conditionals">If statements and conditionals<a class="anchor" aria-label="anchor" href="#if-statements-and-conditionals"></a>
 </h2>
 <hr class="half-width">
-<div class="section level3">
-<h3 id="conditionals">6. Conditionals<a class="anchor" aria-label="anchor" href="#conditionals"></a>
-</h3>
+<div id="conditionals" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="conditionals" class="callout-inner">
+<h3 class="callout-title">6. Conditionals</h3>
+<div class="callout-content">
 <p>Which of these conditional tests returns a <code>True</code>
 result?</p>
 <ol style="list-style-type: decimal">
@@ -590,6 +630,9 @@ result?</p>
 <li><code>'3' == 3</code></li>
 <li><code>3 &gt; 'c'</code></li>
 </ol>
+</div>
+</div>
+</div>
 <div id="accordionSolution7" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution7" aria-expanded="false" aria-controls="collapseSolution7">
@@ -603,10 +646,13 @@ result?</p>
 </div>
 </div>
 </div>
+<div id="if-statements" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
 </div>
-<div class="section level3">
-<h3 id="if-statements">7. If statements<a class="anchor" aria-label="anchor" href="#if-statements"></a>
-</h3>
+<div id="if-statements" class="callout-inner">
+<h3 class="callout-title">7. If statements</h3>
+<div class="callout-content">
 <p>What is printed when this <code>if</code> statement is used?</p>
 <div class="codewrapper sourceCode" id="cb2">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -632,6 +678,9 @@ result?</p>
 <code>A</code> and <code>D</code>
 </li>
 </ol>
+</div>
+</div>
+</div>
 <div id="accordionSolution8" class="accordion challenge-accordion accordion-flush">
 <div class="accordion-item">
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution8" aria-expanded="false" aria-controls="collapseSolution8">
@@ -668,7 +717,6 @@ returned.</p>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</div>
 </section></section><section id="aio-02-dictionaries"><p>Content from <a href="02-dictionaries.html">Dictionaries</a></p>
 <hr>
 <p>Last updated on 2025-03-24 |
@@ -1213,7 +1261,7 @@ extract information about the object.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb48">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1244,7 +1292,7 @@ title of any DOI it is given.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb49">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1330,7 +1378,7 @@ times scale linearly with the size of the dictionary?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p>The dictionaries can be created using the <code>zip</code>
 method:</p>
@@ -1569,7 +1617,7 @@ What is the result of these two additions?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>The correct answer is (2)</p>
 </div>
@@ -1696,7 +1744,7 @@ sigma=10.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> challenge 1: </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb15">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1714,7 +1762,7 @@ sigma=10.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> challenge 2: </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb16">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1730,7 +1778,7 @@ sigma=10.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4"> challenge 3: </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb17">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1748,7 +1796,7 @@ sigma=10.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution5" aria-expanded="false" aria-controls="collapseSolution5">
   <h4 class="accordion-header" id="headingSolution5"> challenge 4: </h4>
 </button>
-<div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
+<div id="collapseSolution5" class="accordion-collapse collapse" data-bs-parent="#accordionSolution5" aria-labelledby="headingSolution5">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb18">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2089,7 +2137,7 @@ data array.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution6" aria-expanded="false" aria-controls="collapseSolution6">
   <h4 class="accordion-header" id="headingSolution6"> New mask </h4>
 </button>
-<div id="collapseSolution6" class="accordion-collapse collapse" aria-labelledby="headingSolution6" data-bs-parent="#accordionSolution6">
+<div id="collapseSolution6" class="accordion-collapse collapse" data-bs-parent="#accordionSolution6" aria-labelledby="headingSolution6">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb43">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2105,7 +2153,7 @@ data array.</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution7" aria-expanded="false" aria-controls="collapseSolution7">
   <h4 class="accordion-header" id="headingSolution7"> Combining masks </h4>
 </button>
-<div id="collapseSolution7" class="accordion-collapse collapse" aria-labelledby="headingSolution7" data-bs-parent="#accordionSolution7">
+<div id="collapseSolution7" class="accordion-collapse collapse" data-bs-parent="#accordionSolution7" aria-labelledby="headingSolution7">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb44">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2882,7 +2930,7 @@ problem in this test?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>The test assumes that <code>val</code> is a number, and throws an
 uncontrolled error if it is not.</p>
@@ -3060,7 +3108,7 @@ crashing.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb10">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -3172,7 +3220,7 @@ raise and error if the value is NaN.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p>Because the test checks if a value is NaN, we need to add
 <code>not</code> before the test, to ensure that the <code>assert</code>
